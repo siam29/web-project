@@ -1,0 +1,31 @@
+h1{
+    background-position: :right top;
+
+}
+
+body{
+    background-image: url("image.avif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    /*background-size: cover;*/
+}
+
+p{
+    border-style: solid;
+    border-width: 5px;
+    border-color:red green blue black;
+    border-radius: 10px;
+    margin:auto;
+    width: 300px;
+    
+}
+
+div{
+    margin: 10px;
+}
+
+p.ex{
+    margin:inherit;
+    padding:20px;
+}
