@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>House Rules</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .house-rules-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+
+  .house-rules-title {
+    grid-column: span 2;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .rule-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .rule-icon {
+    font-size: 24px;
+  }
+
+  .rule-text {
+    font-size: 16px;
+  }
+
+  .check-in-out {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .age-rule, .no-events, .no-smoking {
+    justify-self: end;
+  }
+</style>
+</head>
+<body>
+
+<div class="house-rules-container">
+  <div class="house-rules-title">House Rules</div>
+  
+  <div class="check-in-out">
+    <div class="rule-text">Check in after 3:00 PM</div>
+    <div class="rule-text">Check out before 11:00 AM</div>
+  </div>
+  
+  <div class="age-rule">
+    <div class="rule-text">Minimum age to rent: 25</div>
+  </div>
+  
+  <div class="rule-item">
+    <div class="rule-icon">👶</div>
+    <div class="rule-text">Children allowed: ages 0-17</div>
+  </div>
+
+  <div class="rule-item age-rule">
+    <div class="rule-icon">❌</div>
+    <div class="rule-text">No pets allowed</div>
+  </div>
+  
+  <div class="rule-item no-events">
+    <div class="rule-icon">🚫</div>
+    <div class="rule-text">No events allowed</div>
+  </div>
+
+  <div class="rule-item no-smoking">
+    <div class="rule-icon">🚭</div>
+    <div class="rule-text">Smoking is not permitted</div>
+  </div>
+</div>
+
+</body>
+</html>
+
